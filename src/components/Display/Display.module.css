@@ -1,0 +1,1075 @@
+.display {
+  /* calculated height: view height minus 128 (68*2) px */
+  /* border: 1px solid rgb(224, 157, 0); */
+  height: calc(100% - 136px);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .overlap-wrapper {
+  height: 2734px;
+  width: 1632px;
+}
+
+.frame .overlap {
+  height: 2734px;
+  position: relative;
+}
+
+.frame .rectangle {
+  background: linear-gradient(180deg, rgb(72, 145, 220) 0%, rgb(0, 0, 0) 13.54%);
+  height: 874px;
+  left: 0;
+  position: absolute;
+  top: 576px;
+  width: 1584px;
+}
+
+.frame .div {
+  background-color: #000000;
+  height: 806px;
+  left: 0;
+  position: absolute;
+  top: 1928px;
+  width: 1584px;
+}
+
+.frame .rectangle-2 {
+  background-color: #000000;
+  height: 874px;
+  left: 0;
+  position: absolute;
+  top: 1437px;
+  width: 1584px;
+}
+
+.frame .rectangle-3 {
+  background-color: #000000;
+  height: 874px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1584px;
+}
+
+.frame .text-wrapper {
+  color: #ffffff;
+  font-family: "Krona One", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 441px;
+  width: 815px;
+}
+
+.frame .p {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 118px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 1523px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 118px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 1615px;
+  width: 805px;
+}
+
+.frame .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 827px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 883px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 827px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 975px;
+  width: 805px;
+}
+
+.frame .group {
+  height: 57px;
+  left: 1281px;
+  position: absolute;
+  top: 28px;
+  width: 272px;
+}
+
+.frame .overlap-group {
+  background-color: #00f0ff;
+  border-radius: 30px;
+  height: 57px;
+  position: relative;
+  width: 270px;
+}
+
+.frame .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 227px;
+}
+
+.frame .img {
+  height: 151px;
+  left: 827px;
+  object-fit: cover;
+  position: absolute;
+  top: 375px;
+  width: 200px;
+}
+
+.frame .rectangle-4 {
+  height: 154px;
+  left: 1047px;
+  object-fit: cover;
+  position: absolute;
+  top: 375px;
+  width: 190px;
+}
+
+.frame .rectangle-5 {
+  height: 154px;
+  left: 1257px;
+  object-fit: cover;
+  position: absolute;
+  top: 372px;
+  width: 192px;
+}
+
+.frame .rectangle-6 {
+  height: 155px;
+  left: 1193px;
+  object-fit: cover;
+  position: absolute;
+  top: 202px;
+  width: 216px;
+}
+
+.frame .rectangle-7 {
+  height: 155px;
+  left: 955px;
+  object-fit: cover;
+  position: absolute;
+  top: 202px;
+  width: 217px;
+}
+
+.frame .rectangle-8 {
+  height: 155px;
+  left: 719px;
+  object-fit: cover;
+  position: absolute;
+  top: 202px;
+  width: 216px;
+}
+
+.frame .group-2 {
+  height: 805px;
+  left: 270px;
+  position: absolute;
+  top: 1346px;
+  width: 1155px;
+}
+
+.frame .overlap-2 {
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 728px;
+  width: 382px;
+}
+
+.frame .rectangle-9 {
+  background-color: #00f0ff;
+  border-radius: 20px;
+  height: 77px;
+  left: 22px;
+  position: absolute;
+  top: 0;
+  width: 337px;
+}
+
+.frame .text-wrapper-6 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 27px;
+  width: 382px;
+}
+
+.frame .group-wrapper {
+  background-color: var(--darkbase-layer);
+  height: 520px;
+  left: 513px;
+  position: absolute;
+  top: 0;
+  width: 640px;
+}
+
+.frame .overlap-group-wrapper {
+  height: 316px;
+  left: 147px;
+  position: relative;
+  top: 102px;
+  width: 346px;
+}
+
+.frame .overlap-3 {
+  height: 316px;
+  position: relative;
+}
+
+.frame .group-3 {
+  height: 316px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 315px;
+}
+
+.frame .div-wrapper {
+  height: 316px;
+}
+
+.frame .overlap-4 {
+  height: 316px;
+  position: relative;
+  width: 315px;
+}
+
+.frame .group-4 {
+  height: 248px;
+  left: 0;
+  position: absolute;
+  top: 68px;
+  width: 315px;
+}
+
+.frame .overlap-5 {
+  height: 248px;
+  position: relative;
+}
+
+.frame .group-5 {
+  height: 63px;
+  left: 122px;
+  position: absolute;
+  top: 98px;
+  width: 62px;
+}
+
+.frame .group-6 {
+  height: 86px;
+  left: 96px;
+  position: absolute;
+  top: 163px;
+  width: 160px;
+}
+
+.frame .group-7 {
+  height: 86px;
+}
+
+.frame .overlap-group-2 {
+  height: 87px;
+  position: relative;
+  width: 161px;
+}
+
+.frame .vector {
+  height: 48px;
+  left: 12px;
+  position: absolute;
+  top: 8px;
+  width: 137px;
+}
+
+.frame .vector-2 {
+  height: 52px;
+  left: 0;
+  position: absolute;
+  top: 34px;
+  width: 161px;
+}
+
+.frame .intersect {
+  height: 48px;
+  left: 114px;
+  position: absolute;
+  top: 35px;
+  width: 47px;
+}
+
+.frame .subtract {
+  height: 71px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 161px;
+}
+
+.frame .group-8 {
+  height: 148px;
+  left: 38px;
+  position: absolute;
+  top: 35px;
+  width: 276px;
+}
+
+.frame .group-9 {
+  height: 148px;
+}
+
+.frame .group-10 {
+  height: 148px;
+  width: 276px;
+}
+
+.frame .overlap-group-3 {
+  height: 149px;
+  left: -1px;
+  position: relative;
+  width: 277px;
+}
+
+.frame .vector-3 {
+  height: 82px;
+  left: 21px;
+  position: absolute;
+  top: 15px;
+  width: 236px;
+}
+
+.frame .vector-4 {
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 60px;
+  width: 277px;
+}
+
+.frame .intersect-2 {
+  height: 83px;
+  left: 196px;
+  position: absolute;
+  top: 61px;
+  width: 81px;
+}
+
+.frame .subtract-2 {
+  height: 122px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 277px;
+}
+
+.frame .group-11 {
+  height: 87px;
+  left: 190px;
+  position: absolute;
+  top: 45px;
+  width: 93px;
+}
+
+.frame .group-12 {
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 65px;
+}
+
+.frame .group-13 {
+  height: 194px;
+  left: 43px;
+  position: absolute;
+  top: 0;
+  width: 186px;
+}
+
+.frame .group-14 {
+  height: 96px;
+  left: 201px;
+  position: absolute;
+  top: 11px;
+  width: 88px;
+}
+
+.frame .group-15 {
+  height: 31px;
+  left: 293px;
+  position: absolute;
+  top: 83px;
+  transform: rotate(30deg);
+  width: 49px;
+}
+
+.frame .overlap-6 {
+  height: 57px;
+  left: -4px;
+  position: relative;
+  top: -13px;
+  width: 58px;
+}
+
+.frame .vector-5 {
+  height: 34px;
+  left: 6px;
+  position: absolute;
+  top: 13px;
+  transform: rotate(-30deg);
+  width: 47px;
+}
+
+.frame .intersect-3 {
+  height: 26px;
+  left: 24px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 17px;
+  transform: rotate(-30deg);
+  width: 30px;
+}
+
+.frame .vector-6 {
+  height: 35px;
+  left: 6px;
+  position: absolute;
+  top: 9px;
+  transform: rotate(-30deg);
+  width: 45px;
+}
+
+.frame .vector-7 {
+  height: 19px;
+  left: 17px;
+  position: absolute;
+  top: 15px;
+  transform: rotate(-30deg);
+  width: 24px;
+}
+
+.frame .group-16 {
+  height: 82px;
+  left: 914px;
+  position: absolute;
+  top: 2074px;
+  width: 483px;
+}
+
+.frame .overlap-7 {
+  height: 77px;
+  left: 99px;
+  position: absolute;
+  top: 2px;
+  width: 382px;
+}
+
+.frame .text-wrapper-7 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  width: 382px;
+}
+
+.frame .image {
+  height: 82px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 84px;
+}
+
+.frame .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  left: 272px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+  white-space: nowrap;
+  width: 105px;
+}
+
+.frame .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  left: 418px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+  white-space: nowrap;
+  width: 107px;
+}
+
+.frame .ellipse {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 239.7, 0.8) 0%, rgba(0, 255, 239.7, 0) 100%);
+  border-radius: 175px/150px;
+  filter: blur(160px);
+  height: 300px;
+  left: 150px;
+  position: absolute;
+  top: 202px;
+  width: 350px;
+}
+
+.frame .group-wrapper-2 {
+  background-color: var(--darkbase-layer);
+  height: 520px;
+  left: 79px;
+  position: absolute;
+  top: 728px;
+  width: 640px;
+}
+
+.frame .group-17 {
+  height: 381px;
+  left: 101px;
+  position: relative;
+  top: 85px;
+  width: 415px;
+}
+
+.frame .overlap-8 {
+  height: 381px;
+  position: relative;
+}
+
+.frame .group-18 {
+  height: 334px;
+  left: 0;
+  position: absolute;
+  top: 47px;
+  width: 380px;
+}
+
+.frame .group-19 {
+  background-image: url(https://c.animaapp.com/n6RxYxic/img/group-1430103395-1@2x.png);
+  background-size: 100% 100%;
+  height: 151px;
+  left: 141px;
+  position: absolute;
+  top: 123px;
+  width: 123px;
+}
+
+.frame .overlap-group-4 {
+  height: 82px;
+  left: 23px;
+  position: relative;
+  top: 40px;
+  width: 74px;
+}
+
+.frame .intersect-4 {
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 36px;
+  width: 48px;
+}
+
+.frame .img-2 {
+  height: 63px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 67px;
+}
+
+.frame .group-20 {
+  height: 278px;
+  left: 183px;
+  position: absolute;
+  top: 0;
+  width: 232px;
+}
+
+.frame .overlap-9 {
+  height: 278px;
+  position: relative;
+}
+
+.frame .group-21 {
+  height: 157px;
+  left: 6px;
+  position: absolute;
+  top: 74px;
+  width: 141px;
+}
+
+.frame .group-22 {
+  height: 114px;
+  left: 14px;
+  position: absolute;
+  top: 34px;
+  transform: rotate(21.91deg);
+  width: 205px;
+}
+
+.frame .overlap-group-5 {
+  height: 134px;
+  left: -15px;
+  position: relative;
+  top: -8px;
+  width: 220px;
+}
+
+.frame .ellipse-2 {
+  height: 73px;
+  left: 18px;
+  position: absolute;
+  top: 20px;
+  transform: rotate(-21.91deg);
+  width: 121px;
+}
+
+.frame .mask-group {
+  height: 87px;
+  left: 11px;
+  position: absolute;
+  top: 21px;
+  transform: rotate(-21.91deg);
+  width: 130px;
+}
+
+.frame .ellipse-3 {
+  background-color: var(--darkbg-0);
+  border: 1px solid;
+  border-color: var(--darkbt-color);
+  border-radius: 62.29px/29.8px;
+  height: 60px;
+  left: 14px;
+  position: absolute;
+  top: 13px;
+  width: 125px;
+}
+
+.frame .ellipse-4 {
+  background-color: var(--darkbt-color);
+  border: 1px solid;
+  border-color: var(--darkbt-color);
+  border-radius: 50.47px/20.94px;
+  height: 43px;
+  left: 26px;
+  position: absolute;
+  top: 22px;
+  width: 102px;
+}
+
+.frame .intersect-5 {
+  height: 47px;
+  left: 31px;
+  position: absolute;
+  top: 23px;
+  transform: rotate(-21.91deg);
+  width: 91px;
+}
+
+.frame .intersect-6 {
+  height: 23px;
+  left: 48px;
+  position: absolute;
+  top: 44px;
+  transform: rotate(-21.91deg);
+  width: 77px;
+}
+
+.frame .rectangle-10 {
+  height: 53px;
+  left: 122px;
+  position: absolute;
+  top: 55px;
+  transform: rotate(-21.91deg);
+  width: 50px;
+}
+
+.frame .rectangle-11 {
+  height: 63px;
+  left: 145px;
+  position: absolute;
+  top: 62px;
+  transform: rotate(-21.91deg);
+  width: 62px;
+}
+
+.frame .rectangle-12 {
+  height: 23px;
+  left: 194px;
+  position: absolute;
+  top: 96px;
+  transform: rotate(-21.91deg);
+  width: 23px;
+}
+
+.frame .vector-8 {
+  height: 1px;
+  left: 68px;
+  object-fit: cover;
+  position: absolute;
+  top: 46px;
+  transform: rotate(-21.91deg);
+  width: 17px;
+}
+
+.frame .vector-9 {
+  height: 12px;
+  left: 70px;
+  object-fit: cover;
+  position: absolute;
+  top: 41px;
+  transform: rotate(-21.91deg);
+  width: 13px;
+}
+
+.frame .group-23 {
+  height: 81px;
+  left: 129px;
+  position: absolute;
+  top: 196px;
+  transform: rotate(178.41deg);
+  width: 88px;
+}
+
+.frame .overlap-10 {
+  height: 85px;
+  left: 2px;
+  position: relative;
+  top: -2px;
+  width: 85px;
+}
+
+.frame .group-24 {
+  height: 60px;
+  left: 13px;
+  position: absolute;
+  top: 12px;
+  transform: rotate(-47.32deg);
+  width: 60px;
+}
+
+.frame .overlap-group-6 {
+  height: 65px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 62px;
+}
+
+.frame .vector-10 {
+  height: 38px;
+  left: 13px;
+  position: absolute;
+  top: 17px;
+  transform: rotate(-131.09deg);
+  width: 36px;
+}
+
+.frame .mask-group-2 {
+  height: 43px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  transform: rotate(-131.09deg);
+  width: 45px;
+}
+
+.frame .vector-11 {
+  height: 37px;
+  left: 14px;
+  position: absolute;
+  top: 20px;
+  transform: rotate(-131.09deg);
+  width: 36px;
+}
+
+.frame .mask-group-3 {
+  height: 55px;
+  left: 17px;
+  position: absolute;
+  top: 20px;
+  transform: rotate(-178.41deg);
+  width: 64px;
+}
+
+.frame .vector-12 {
+  height: 37px;
+  left: 31px;
+  position: absolute;
+  top: 29px;
+  transform: rotate(-178.41deg);
+  width: 36px;
+}
+
+.frame .group-25 {
+  height: 55px;
+  left: 237px;
+  position: absolute;
+  top: 122px;
+  width: 52px;
+}
+
+.frame .vector-13 {
+  height: 8px;
+  left: 218px;
+  position: absolute;
+  top: 101px;
+  width: 8px;
+}
+
+.frame .group-26 {
+  height: 94px;
+  left: 21px;
+  position: absolute;
+  top: 37px;
+  transform: rotate(-72.22deg);
+  width: 103px;
+}
+
+.frame .overlap-11 {
+  height: 99px;
+  left: 2px;
+  position: relative;
+  top: -2px;
+  width: 99px;
+}
+
+.frame .group-27 {
+  height: 70px;
+  left: 15px;
+  position: absolute;
+  top: 14px;
+  transform: rotate(-47.32deg);
+  width: 70px;
+}
+
+.frame .overlap-group-7 {
+  height: 85px;
+  left: -7px;
+  position: relative;
+  top: -7px;
+  width: 85px;
+}
+
+.frame .vector-14 {
+  height: 50px;
+  left: 26px;
+  position: absolute;
+  top: 22px;
+  transform: rotate(119.53deg);
+  width: 35px;
+}
+
+.frame .mask-group-4 {
+  height: 62px;
+  left: 11px;
+  position: absolute;
+  top: 11px;
+  transform: rotate(119.53deg);
+  width: 62px;
+}
+
+.frame .vector-15 {
+  height: 49px;
+  left: 25px;
+  position: absolute;
+  top: 27px;
+  transform: rotate(119.53deg);
+  width: 36px;
+}
+
+.frame .mask-group-5 {
+  height: 62px;
+  left: 28px;
+  position: absolute;
+  top: 24px;
+  transform: rotate(72.22deg);
+  width: 57px;
+}
+
+.frame .vector-16 {
+  height: 49px;
+  left: 39px;
+  position: absolute;
+  top: 31px;
+  transform: rotate(72.22deg);
+  width: 36px;
+}
+
+.frame .div-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 201px;
+  position: absolute;
+  top: 2385px;
+}
+
+.frame .logos {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.frame .div-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 32px;
+  position: relative;
+}
+
+.frame .img-3 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.frame .div-4 {
+  border: 1px solid;
+  border-color: var(--darkline-2);
+  border-radius: 4px;
+  height: 40px;
+  left: 198px;
+  overflow: hidden;
+  position: absolute;
+  top: 2311px;
+  width: 237px;
+}
+
+.frame .text-wrapper-10 {
+  color: var(--darktext-1);
+  font-family: var(--body-body1-regular-font-family);
+  font-size: var(--body-body1-regular-font-size);
+  font-style: var(--body-body1-regular-font-style);
+  font-weight: var(--body-body1-regular-font-weight);
+  left: 12px;
+  letter-spacing: var(--body-body1-regular-letter-spacing);
+  line-height: var(--body-body1-regular-line-height);
+  position: absolute;
+  top: 7px;
+  white-space: nowrap;
+}
+
+.frame .icon-triangle {
+  height: 8px;
+  left: 219px;
+  position: absolute;
+  top: 16px;
+  width: 8px;
+}
+
+.frame .polygon {
+  height: 5px;
+  left: 1px;
+  position: absolute;
+  top: 3px;
+  width: 7px;
+}
+
+.frame .image-2 {
+  height: 72px;
+  left: 171px;
+  object-fit: cover;
+  position: absolute;
+  top: 2076px;
+  width: 84px;
+}
+
+.frame .img-4 {
+  height: 41px;
+  left: 44px;
+  position: absolute;
+  top: 24px;
+  width: 40px;
+}
+
+.frame .text-wrapper-11 {
+  color: #ffffff;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 89px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 34px;
+  white-space: nowrap;
+}

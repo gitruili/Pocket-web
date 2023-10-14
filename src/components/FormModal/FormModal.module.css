@@ -1,0 +1,192 @@
+.frame {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .overlap-wrapper {
+    height: 2399px;
+    width: 1418px;
+  }
+  
+  .frame .overlap {
+    height: 2399px;
+    position: relative;
+  }
+  
+  .frame .image {
+    height: 915px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1418px;
+  }
+  
+  .frame .rectangle {
+    background-color: #ffffff;
+    height: 1839px;
+    left: 0;
+    position: absolute;
+    top: 560px;
+    width: 1418px;
+  }
+  
+  .frame .img {
+    height: 388px;
+    left: 0;
+    position: absolute;
+    top: 172px;
+    width: 1418px;
+  }
+  
+  .frame .submit-VIP-card {
+    color: #000000;
+    font-family: "Krona One", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 63px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 441px;
+    width: 1065px;
+  }
+  
+  .frame .text-wrapper {
+    color: #000000;
+    font-family: "Krona One", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 63px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 681px;
+    width: 1065px;
+  }
+  
+  .frame .div {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #0000006b;
+    border-radius: 20px;
+    height: 130px;
+    left: 63px;
+    position: absolute;
+    top: 732px;
+    width: 1169px;
+  }
+  
+  .frame .text-wrapper-2 {
+    color: #000000;
+    font-family: "Krona One", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 63px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 938px;
+    width: 1065px;
+  }
+  
+  .frame .picture-support-zip {
+    color: transparent;
+    font-family: "Krona One", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 63px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 1372px;
+    width: 1065px;
+  }
+  
+  .frame .span {
+    color: #000000;
+  }
+  
+  .frame .text-wrapper-3 {
+    color: #0000007d;
+    font-size: 20px;
+  }
+  
+  .frame .p {
+    color: #8a8a8a;
+    font-family: "Krona One", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 63px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 1899px;
+    width: 1065px;
+  }
+  
+  .frame .rectangle-2 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #0000006b;
+    border-radius: 20px;
+    height: 307px;
+    left: 63px;
+    position: absolute;
+    top: 989px;
+    width: 1169px;
+  }
+  
+  .frame .rectangle-3 {
+    background-color: #ffffff;
+    border: 1px dashed;
+    border-color: #0000006b;
+    border-radius: 20px;
+    height: 400px;
+    left: 63px;
+    position: absolute;
+    top: 1423px;
+    width: 400px;
+  }
+  
+  .frame .vector {
+    height: 151px;
+    left: 187px;
+    position: absolute;
+    top: 1546px;
+    width: 151px;
+  }
+  
+  .frame .group {
+    height: 101px;
+    left: 349px;
+    position: absolute;
+    top: 2163px;
+    width: 722px;
+  }
+  
+  .frame .overlap-group {
+    background-color: #000000;
+    border-radius: 30px;
+    height: 101px;
+    position: relative;
+    width: 720px;
+  }
+  
+  .frame .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 56px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    width: 606px;
+  }
+  

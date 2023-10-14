@@ -1,0 +1,963 @@
+.test {
+    /* calculated height: view height minus 128 (68*2) px */
+    /* border: 1px solid rgb(224, 157, 0); */
+    height: calc(100% - 136px);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-wrapper-screen {
+    background-color: #17171a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .div-wrapper-screen .div {
+    background-color: var(--darkbgbg-0);
+    height: 1519px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .div-wrapper-screen .overlap {
+    height: 590px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .div-wrapper-screen .overlap-group {
+    height: 578px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .div-wrapper-screen .navbar-light {
+    -webkit-backdrop-filter: blur(100px) brightness(100%);
+    backdrop-filter: blur(100px) brightness(100%);
+    background-color: var(--darkbgbg-0);
+    height: 64px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .div-wrapper-screen .view {
+    background-color: unset !important;
+    border-color: var(--darkbgbg-3) !important;
+    height: 40px !important;
+    left: 618px !important;
+    top: 12px !important;
+  }
+  
+  .div-wrapper-screen .component-229 {
+    position: relative !important;
+    top: 10px !important;
+  }
+  
+  .div-wrapper-screen .component-229-instance {
+    color: var(--darktexttext-3) !important;
+  }
+  
+  .div-wrapper-screen .img {
+    height: 41px;
+    left: 37px;
+    position: absolute;
+    top: 12px;
+    width: 40px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "JejuGothic-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    white-space: nowrap;
+  }
+  
+  .div-wrapper-screen .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "JejuGothic-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1704px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    white-space: nowrap;
+  }
+  
+  .div-wrapper-screen .image {
+    height: 28px;
+    left: 1664px;
+    object-fit: cover;
+    position: absolute;
+    top: 23px;
+    width: 26px;
+  }
+  
+  .div-wrapper-screen .p {
+    color: #ffffff;
+    font-family: "Krona One", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 282px;
+    width: 1065px;
+  }
+  
+  .div-wrapper-screen .group {
+    height: 538px;
+    left: 1058px;
+    position: absolute;
+    top: 40px;
+    width: 571px;
+  }
+  
+  .div-wrapper-screen .overlap-wrapper {
+    height: 257px;
+    left: 1206px;
+    position: absolute;
+    top: 157px;
+    width: 345px;
+  }
+  
+  .div-wrapper-screen .overlap-2 {
+    height: 257px;
+    position: relative;
+  }
+  
+  .div-wrapper-screen .overlap-group-wrapper {
+    height: 257px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+  }
+  
+  .div-wrapper-screen .vector {
+    height: 237px;
+    left: 10px;
+    position: absolute;
+    top: 21px;
+    width: 329px;
+  }
+  
+  .div-wrapper-screen .mask-group {
+    height: 236px;
+    left: 8px;
+    position: absolute;
+    top: 21px;
+    width: 337px;
+  }
+  
+  .div-wrapper-screen .vector-2 {
+    height: 226px;
+    left: 19px;
+    position: absolute;
+    top: 25px;
+    width: 311px;
+  }
+  
+  .div-wrapper-screen .vector-3 {
+    height: 192px;
+    left: 180px;
+    position: absolute;
+    top: 37px;
+    width: 142px;
+  }
+  
+  .div-wrapper-screen .vector-4 {
+    height: 38px;
+    left: 270px;
+    position: absolute;
+    top: 134px;
+    width: 29px;
+  }
+  
+  .div-wrapper-screen .vector-5 {
+    height: 38px;
+    left: 286px;
+    position: absolute;
+    top: 109px;
+    width: 29px;
+  }
+  
+  .div-wrapper-screen .vector-6 {
+    height: 38px;
+    left: 253px;
+    position: absolute;
+    top: 158px;
+    width: 29px;
+  }
+  
+  .div-wrapper-screen .vector-7 {
+    height: 38px;
+    left: 237px;
+    position: absolute;
+    top: 182px;
+    width: 29px;
+  }
+  
+  .div-wrapper-screen .vector-8 {
+    height: 160px;
+    left: 175px;
+    position: absolute;
+    top: 37px;
+    width: 120px;
+  }
+  
+  .div-wrapper-screen .vector-9 {
+    height: 12px;
+    left: 267px;
+    position: absolute;
+    top: 112px;
+    width: 8px;
+  }
+  
+  .div-wrapper-screen .vector-10 {
+    height: 24px;
+    left: 268px;
+    position: absolute;
+    top: 88px;
+    width: 16px;
+  }
+  
+  .div-wrapper-screen .group-2 {
+    height: 53px;
+    left: 203px;
+    position: absolute;
+    top: 117px;
+    transform: rotate(32.11deg);
+    width: 48px;
+  }
+  
+  .div-wrapper-screen .overlap-group-2 {
+    height: 63px;
+    left: -12px;
+    position: relative;
+    top: -4px;
+    width: 72px;
+  }
+  
+  .div-wrapper-screen .vector-11 {
+    height: 30px;
+    left: 7px;
+    position: absolute;
+    top: 19px;
+    transform: rotate(-32.11deg);
+    width: 61px;
+  }
+  
+  .div-wrapper-screen .intersect {
+    height: 20px;
+    left: 34px;
+    position: absolute;
+    top: 11px;
+    transform: rotate(-32.11deg);
+    width: 29px;
+  }
+  
+  .div-wrapper-screen .vector-12 {
+    height: 33px;
+    left: 4px;
+    position: absolute;
+    top: 13px;
+    transform: rotate(-32.11deg);
+    width: 60px;
+  }
+  
+  .div-wrapper-screen .intersect-2 {
+    height: 15px;
+    left: 40px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 4px;
+    transform: rotate(-32.11deg);
+    width: 16px;
+  }
+  
+  .div-wrapper-screen .intersect-3 {
+    height: 25px;
+    left: 3px;
+    position: absolute;
+    top: 19px;
+    transform: rotate(-32.11deg);
+    width: 40px;
+  }
+  
+  .div-wrapper-screen .group-3 {
+    height: 59px;
+    left: 181px;
+    position: absolute;
+    top: 93px;
+    transform: rotate(13.38deg);
+    width: 46px;
+  }
+  
+  .div-wrapper-screen .overlap-3 {
+    height: 64px;
+    left: -9px;
+    position: relative;
+    top: -2px;
+    width: 63px;
+  }
+  
+  .div-wrapper-screen .vector-13 {
+    height: 54px;
+    left: 11px;
+    position: absolute;
+    top: 5px;
+    transform: rotate(-13.38deg);
+    width: 46px;
+  }
+  
+  .div-wrapper-screen .intersect-4 {
+    height: 43px;
+    left: 13px;
+    position: absolute;
+    top: 16px;
+    transform: rotate(-13.38deg);
+    width: 45px;
+  }
+  
+  .div-wrapper-screen .vector-14 {
+    height: 53px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    transform: rotate(-13.38deg);
+    width: 47px;
+  }
+  
+  .div-wrapper-screen .intersect-5 {
+    height: 48px;
+    left: 5px;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-13.38deg);
+    width: 30px;
+  }
+  
+  .div-wrapper-screen .group-4 {
+    height: 60px;
+    left: 158px;
+    position: absolute;
+    top: 82px;
+    transform: rotate(7.96deg);
+    width: 41px;
+  }
+  
+  .div-wrapper-screen .overlap-4 {
+    height: 65px;
+    left: -4px;
+    position: absolute;
+    top: -3px;
+    width: 50px;
+  }
+  
+  .div-wrapper-screen .vector-15 {
+    height: 61px;
+    left: 18px;
+    position: absolute;
+    top: 2px;
+    transform: rotate(-7.96deg);
+    width: 28px;
+  }
+  
+  .div-wrapper-screen .vector-16 {
+    height: 60px;
+    left: 4px;
+    position: absolute;
+    top: 3px;
+    transform: rotate(-7.96deg);
+    width: 36px;
+  }
+  
+  .div-wrapper-screen .intersect-6 {
+    height: 110px;
+    left: -5423px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 906px;
+    transform: rotate(-7.96deg);
+    width: 59px;
+  }
+  
+  .div-wrapper-screen .group-5 {
+    height: 49px;
+    left: 6px;
+    position: absolute;
+    top: 131px;
+    transform: rotate(-2.29deg);
+    width: 63px;
+  }
+  
+  .div-wrapper-screen .overlap-5 {
+    height: 50px;
+    left: -2px;
+    position: relative;
+    top: -1px;
+    width: 66px;
+  }
+  
+  .div-wrapper-screen .vector-17 {
+    height: 43px;
+    left: 1px;
+    position: absolute;
+    top: 6px;
+    transform: rotate(2.29deg);
+    width: 63px;
+  }
+  
+  .div-wrapper-screen .intersect-7 {
+    height: 25px;
+    left: 26px;
+    position: absolute;
+    top: 23px;
+    transform: rotate(2.29deg);
+    width: 37px;
+  }
+  
+  .div-wrapper-screen .vector-18 {
+    height: 43px;
+    left: 4px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(2.29deg);
+    width: 61px;
+  }
+  
+  .div-wrapper-screen .intersect-8 {
+    height: 34px;
+    left: 16px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(2.29deg);
+    width: 50px;
+  }
+  
+  .div-wrapper-screen .group-6 {
+    height: 55px;
+    left: 28px;
+    position: absolute;
+    top: 110px;
+    transform: rotate(1.21deg);
+    width: 57px;
+  }
+  
+  .div-wrapper-screen .overlap-6 {
+    height: 57px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 59px;
+  }
+  
+  .div-wrapper-screen .vector-19 {
+    height: 54px;
+    left: 1px;
+    position: absolute;
+    top: 3px;
+    transform: rotate(-1.21deg);
+    width: 53px;
+  }
+  
+  .div-wrapper-screen .intersect-9 {
+    height: 48px;
+    left: 1px;
+    position: absolute;
+    top: 4px;
+    transform: rotate(-1.21deg);
+    width: 45px;
+  }
+  
+  .div-wrapper-screen .vector-20 {
+    height: 52px;
+    left: 6px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(-1.21deg);
+    width: 53px;
+  }
+  
+  .div-wrapper-screen .intersect-10 {
+    height: 26px;
+    left: 48px;
+    position: absolute;
+    top: 19px;
+    transform: rotate(-1.21deg);
+    width: 10px;
+  }
+  
+  .div-wrapper-screen .group-7 {
+    height: 243px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 214px;
+  }
+  
+  .div-wrapper-screen .vector-21 {
+    height: 36px;
+    left: 209px;
+    position: absolute;
+    top: 40px;
+    width: 92px;
+  }
+  
+  .div-wrapper-screen .vector-22 {
+    height: 35px;
+    left: 210px;
+    position: absolute;
+    top: 37px;
+    width: 91px;
+  }
+  
+  .div-wrapper-screen .vector-23 {
+    height: 30px;
+    left: 54px;
+    position: absolute;
+    top: 118px;
+    width: 32px;
+  }
+  
+  .div-wrapper-screen .vector-24 {
+    height: 14px;
+    left: 62px;
+    position: absolute;
+    top: 98px;
+    width: 19px;
+  }
+  
+  .div-wrapper-screen .vector-25 {
+    height: 17px;
+    left: 62px;
+    position: absolute;
+    top: 97px;
+    width: 24px;
+  }
+  
+  .div-wrapper-screen .vector-26 {
+    height: 13px;
+    left: 95px;
+    position: absolute;
+    top: 151px;
+    width: 5px;
+  }
+  
+  .div-wrapper-screen .ellipse {
+    background-color: var(--commonwhite);
+    border: 1px solid;
+    border-color: var(--commonblack);
+    border-radius: 9.66px/8.14px;
+    height: 16px;
+    left: 237px;
+    position: absolute;
+    top: 26px;
+    width: 19px;
+  }
+  
+  .div-wrapper-screen .ellipse-2 {
+    background-color: #a878ff;
+    border-radius: 3.85px/3.24px;
+    height: 6px;
+    left: 243px;
+    position: absolute;
+    top: 31px;
+    width: 8px;
+  }
+  
+  .div-wrapper-screen .vector-27 {
+    height: 2px;
+    left: 97px;
+    position: absolute;
+    top: 37px;
+    width: 11px;
+  }
+  
+  .div-wrapper-screen .vector-28 {
+    height: 7px;
+    left: 61px;
+    position: absolute;
+    top: 73px;
+    width: 3px;
+  }
+  
+  .div-wrapper-screen .group-8 {
+    height: 59px;
+    left: 12px;
+    position: absolute;
+    top: 187px;
+    width: 64px;
+  }
+  
+  .div-wrapper-screen .vector-29 {
+    height: 12px;
+    left: 116px;
+    position: absolute;
+    top: 39px;
+    width: 8px;
+  }
+  
+  .div-wrapper-screen .vector-30 {
+    height: 8px;
+    left: 68px;
+    position: absolute;
+    top: 52px;
+    width: 3px;
+  }
+  
+  .div-wrapper-screen .vector-31 {
+    height: 5px;
+    left: 150px;
+    position: absolute;
+    top: 50px;
+    width: 11px;
+  }
+  
+  .div-wrapper-screen .rectangle {
+    border: 1px solid;
+    border-color: var(--commonbright-blue);
+    height: 6px;
+    left: 135px;
+    position: absolute;
+    top: 72px;
+    transform: rotate(-12.87deg);
+    width: 8px;
+  }
+  
+  .div-wrapper-screen .rectangle-2 {
+    height: 8px;
+    left: 97px;
+    position: absolute;
+    top: 72px;
+    width: 13px;
+  }
+  
+  .div-wrapper-screen .rectangle-3 {
+    background-color: #a878ff;
+    border: 1px solid;
+    height: 7px;
+    left: 117px;
+    position: absolute;
+    top: 117px;
+    transform: rotate(-12.87deg);
+    width: 9px;
+  }
+  
+  .div-wrapper-screen .rectangle-4 {
+    background-color: var(--commonbright-blue);
+    border: 1px solid;
+    border-color: var(--commonbright-blue);
+    height: 7px;
+    left: 125px;
+    position: absolute;
+    top: 120px;
+    transform: rotate(-12.87deg);
+    width: 9px;
+  }
+  
+  .div-wrapper-screen .group-9 {
+    height: 44px;
+    left: 101px;
+    position: absolute;
+    top: 73px;
+    transform: rotate(-12.87deg);
+    width: 55px;
+  }
+  
+  .div-wrapper-screen .overlap-7 {
+    height: 45px;
+    left: 1px;
+    position: relative;
+    width: 53px;
+  }
+  
+  .div-wrapper-screen .union {
+    height: 35px;
+    left: 3px;
+    position: absolute;
+    top: 5px;
+    transform: rotate(12.87deg);
+    width: 46px;
+  }
+  
+  .div-wrapper-screen .union-2 {
+    height: 16px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    transform: rotate(12.87deg);
+    width: 22px;
+  }
+  
+  .div-wrapper-screen .vector-32 {
+    height: 20px;
+    left: 276px;
+    position: absolute;
+    top: 142px;
+    width: 15px;
+  }
+  
+  .div-wrapper-screen .group-10 {
+    height: 26px;
+    left: 256px;
+    position: absolute;
+    top: 163px;
+    width: 22px;
+  }
+  
+  .div-wrapper-screen .group-11 {
+    height: 28px;
+    left: 291px;
+    position: absolute;
+    top: 114px;
+    width: 20px;
+  }
+  
+  .div-wrapper-screen .vector-33 {
+    height: 19px;
+    left: 245px;
+    position: absolute;
+    top: 193px;
+    width: 13px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Krona One", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 195px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 363px;
+    width: 570px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Krona One", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 210px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 540px;
+    width: 325px;
+  }
+  
+  .div-wrapper-screen .overlap-8 {
+    background: linear-gradient(180deg, rgb(0, 240, 255) 0%, rgb(132.05, 126.36, 142.38) 100%);
+    border-radius: 40px;
+    height: 470px;
+    left: 211px;
+    position: absolute;
+    top: 607px;
+    width: 325px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-6 {
+    color: #000000;
+    font-family: "Krona One", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 46px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    width: 233px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-7 {
+    color: #000000;
+    font-family: "Krona One", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 46px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 207px;
+    width: 233px;
+  }
+  
+  .div-wrapper-screen .frame-2 {
+    height: 56px;
+    left: 132px;
+    position: absolute;
+    top: 352px;
+    width: 61px;
+  }
+  
+  .div-wrapper-screen .overlap-9 {
+    background: linear-gradient(180deg, rgb(0, 240, 255) 0%, rgb(132.05, 126.36, 142.38) 100%);
+    border-radius: 40px;
+    height: 470px;
+    left: 625px;
+    position: absolute;
+    top: 607px;
+    width: 324px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-8 {
+    color: #000000;
+    font-family: "Krona One", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 202px;
+    width: 247px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-9 {
+    color: #000000;
+    font-family: "Krona One", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    width: 233px;
+  }
+  
+  .div-wrapper-screen .frame-3 {
+    height: 56px;
+    left: 131px;
+    position: absolute;
+    top: 354px;
+    width: 61px;
+  }
+  
+  .div-wrapper-screen .overlap-10 {
+    background: linear-gradient(180deg, rgb(0, 240, 255) 0%, rgb(132.05, 126.36, 142.38) 100%);
+    border-radius: 40px;
+    height: 470px;
+    left: 1038px;
+    position: absolute;
+    top: 607px;
+    width: 325px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-10 {
+    color: #000000;
+    font-family: "Krona One", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 46px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 206px;
+    width: 233px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-11 {
+    color: #000000;
+    font-family: "Krona One", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    width: 233px;
+  }
+  
+  .div-wrapper-screen .frame-4 {
+    height: 62px;
+    left: 142px;
+    position: absolute;
+    top: 348px;
+    width: 61px;
+  }
+  
+  .div-wrapper-screen .overlap-11 {
+    height: 57px;
+    left: 210px;
+    position: absolute;
+    top: 1204px;
+    width: 721px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-12 {
+    color: #ffffff;
+    font-family: "Krona One", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 7px;
+    width: 475px;
+  }
+  
+  .div-wrapper-screen .group-12 {
+    height: 57px;
+    left: 449px;
+    position: absolute;
+    top: 0;
+    width: 272px;
+  }
+  
+  .div-wrapper-screen .overlap-12 {
+    background: linear-gradient(180deg, rgb(0, 240, 255) 0%, rgb(125, 134, 150) 100%);
+    border-radius: 30px;
+    height: 57px;
+    position: relative;
+    width: 270px;
+  }
+  
+  .div-wrapper-screen .text-wrapper-13 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    white-space: nowrap;
+    width: 227px;
+  }
+  
