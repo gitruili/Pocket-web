@@ -8,6 +8,18 @@ import mint from '~/assets/mint.png'
 export default function Test() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
+  const customStyles = {
+    content: {
+      // width: '400px',       // Fixed width
+      height: '500px',      // Fixed height
+      marginLeft: 'auto',   // Centering the modal
+      marginRight: 'auto',  // Centering the modal
+      top: '50%',           // Centering the modal
+      left: '50%',          // Centering the modal
+      transform: 'translate(-50%, -50%)'  // Centering the modal
+    }
+  };
+
   function openModal() {
     setIsOpen(true);
   }
@@ -59,6 +71,7 @@ export default function Test() {
             isOpen={modalIsOpen}
             contentLabel="Example Modal"
             onRequestClose={closeModal}
+            style={customStyles}
           >
             <FormModal closeModal={closeModal}></FormModal>
             {/* <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2> */}

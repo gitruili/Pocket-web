@@ -3,16 +3,16 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    width: 600px;
   }
   
   .frame .overlap-wrapper {
-    height: 2399px;
-    width: 1418px;
+    height: 1000px;
+    width: 500px;
   }
   
   .frame .overlap {
-    height: 2399px;
+    height: 1000px;
     position: relative;
   }
   
@@ -22,16 +22,16 @@
     object-fit: cover;
     position: absolute;
     top: 0;
-    width: 1418px;
+    width: 500px;
   }
   
   .frame .rectangle {
     background-color: #ffffff;
-    height: 1839px;
+    height: 1000px;
     left: 0;
     position: absolute;
     top: 560px;
-    width: 1418px;
+    width: 500px;
   }
   
   .frame .img {
@@ -39,7 +39,7 @@
     left: 0;
     position: absolute;
     top: 172px;
-    width: 1418px;
+    width: 500px;
   }
   
   .frame .submit-VIP-card {
@@ -52,7 +52,7 @@
     line-height: 24px;
     position: absolute;
     top: 441px;
-    width: 1065px;
+    width: 500px;
   }
   
   .frame .text-wrapper {
@@ -65,19 +65,19 @@
     line-height: 24px;
     position: absolute;
     top: 681px;
-    width: 1065px;
+    width: 500px;
   }
   
   .frame .div {
-    background-color: #ffffff;
+    /* background-color: #ffffff;
     border: 1px solid;
     border-color: #0000006b;
     border-radius: 20px;
-    height: 130px;
+    height: 130px; */
     left: 63px;
     position: absolute;
     top: 732px;
-    width: 1169px;
+    width: 500px;
   }
   
   .frame .text-wrapper-2 {
@@ -90,7 +90,7 @@
     line-height: 24px;
     position: absolute;
     top: 938px;
-    width: 1065px;
+    width: 500px;
   }
   
   .frame .picture-support-zip {
@@ -103,7 +103,7 @@
     line-height: 24px;
     position: absolute;
     top: 1372px;
-    width: 1065px;
+    width: 500px;
   }
   
   .frame .span {
@@ -125,19 +125,19 @@
     line-height: 24px;
     position: absolute;
     top: 1899px;
-    width: 1065px;
+    width: 500px;
   }
   
   .frame .rectangle-2 {
-    background-color: #ffffff;
+    /* background-color: #ffffff;
     border: 1px solid;
     border-color: #0000006b;
     border-radius: 20px;
-    height: 307px;
+    height: 307px; */
     left: 63px;
     position: absolute;
     top: 989px;
-    width: 1169px;
+    width: 500px;
   }
   
   .frame .rectangle-3 {
@@ -173,7 +173,7 @@
     border-radius: 30px;
     height: 101px;
     position: relative;
-    width: 720px;
+    width: 420px;
   }
   
   .frame .text-wrapper-4 {
