@@ -3,6 +3,12 @@ import styles from './FormModal.module.css'
 import { Link } from "react-router-dom"
 import { IconsFlatInstagram1 } from '~/icons/IconsFlatInstagram1/IconsFlatInstagram1'
 import cutepng from '~/assets/cute2.png'
+import { ethers } from 'ethers';
+import vipcardABI from '../../../src/contract/VIPCard.json';
+import * as dotenv from 'dotenv';
+
+// Configuring dotenv
+//dotenv.config();
 // import { IconsFlatInstagram1 } from "../../icons/IconsFlatInstagram1";
 
 interface FormModalProps {
@@ -16,6 +22,28 @@ export const FormModal : FC<FormModalProps> = ({ closeModal }) => {
   async function callContract() {
     setIsLoading(true);
     // Simulate an asynchronous action, like calling a contract
+
+    const contractName = "pocket";
+    const contractSymbol = "ERC721-token";
+    const erc6551RegistryAddress = "0xba2a5dff82478b912d05c1db856e56264fd3cc4f";
+    const vipCardAccountAddress = "0xc48de7626F5BfB5d9C276B07f13a3995105B4233";
+    const contractABI = vipcardABI.abi;
+    const contractBytecode = vipcardABI.bytecode;
+    const apiUrl = "https://polygon-mumbai.g.alchemy.com/v2/msaJegrQLaLoy3szqaYUebeTejvKLeJO"
+
+    // VipCard deploy
+    console.log("Vipcard NFT deploy start");
+
+    //const provider = new ethers.JsonRpcProvider(apiUrl);
+    //const wallet = new ethers.Wallet(privateKey, provider);
+    const provider = new ethers.BrowserProvider(window.ethereum);
+    const signer = provider.getSigner();
+    const vipCardFactory = new ethers.ContractFactory(contractABI, contractBytecode, signer);
+    const vipCard = await vipCardFactory.deploy(contractName, contractSymbol, erc6551RegistryAddress, vipCardAccountAddress);
+    await vipCard.waitForDeployment();
+    const vipCardAddress = await vipCard.getAddress();
+    console.log("Vipcard NFT deployed:", vipCardAddress);
+
     // Replace the setTimeout with your actual contract call logic
     setTimeout(() => {
       setResult('Contract call result');
