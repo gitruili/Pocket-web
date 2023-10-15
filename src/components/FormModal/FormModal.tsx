@@ -5,15 +5,19 @@ import { IconsFlatInstagram1 } from '~/icons/IconsFlatInstagram1/IconsFlatInstag
 import cutepng from '~/assets/cute2.png'
 import { ethers } from 'ethers';
 import vipcardABI from '../../../src/contract/VIPCard.json';
-import * as dotenv from 'dotenv';
+//import * as dotenv from 'dotenv';
 
 // Configuring dotenv
 //dotenv.config();
 // import { IconsFlatInstagram1 } from "../../icons/IconsFlatInstagram1";
 
+import { Button, Input, Typography } from 'antd';
 interface FormModalProps {
   closeModal: () => void;
 }
+
+const { Title } = Typography;
+const { TextArea } = Input;
 
 export const FormModal : FC<FormModalProps> = ({ closeModal }) => {
   const [isLoading, setIsLoading] = useState(false);
@@ -59,33 +63,68 @@ export const FormModal : FC<FormModalProps> = ({ closeModal }) => {
   }, [result]);
 
   return (
-    <div className={styles['frame']}>
-      <div className={styles['overlap-wrapper']}>
-        <div className={styles['overlap']}>
-          <img className={styles['image']} alt="Image" src="https://c.animaapp.com/koRtGf3q/img/image-21.png" />
-          <div className={styles['rectangle']} />
-          <img className={styles['img']} alt="Rectangle" src="https://c.animaapp.com/koRtGf3q/img/rectangle-34626423.svg" />
-          <div className={styles['submit-VIP-card']}>Submit&nbsp;&nbsp;VIP Card Information</div>
-          <div className={styles['text-wrapper']}>NFT Name</div>
-          <div className={styles['div']} />
-          <div className={styles['text-wrapper-2']}>Discribe</div>
-          {/* <p className={styles['picture-support-zip']}>
-            <span className={styles['span']}>Picture</span>
-            <span className={styles['text-wrapper-3']}> (support .zip .rar)</span>
-          </p> */}
-          {/* <p className={styles['p']}>Your pictures will be upload to IPFS, and finally used as your NFTs.</p> */}
-          <div className={styles['rectangle-2']} />
-          {/* <div className={styles['rectangle-3']} /> */}
-          {/* <img className={styles['vector']} alt="Vector" src="https://c.animaapp.com/koRtGf3q/img/vector.svg" /> */}
-          <div className={styles['group']} onClick={callContract} style={{ cursor: 'pointer' }}>
-            <div className={styles['overlap-group']}>
-              <div className={styles['text-wrapper-4']}>
-                {isLoading ? 'Loading...' : 'Submit'}
-              </div>
-            </div>
-          </div>
-        </div>
+    <div style={{ padding: '20px' }}>
+      {/* <div style={{
+        backgroundImage: 'url("https://c.animaapp.com/koRtGf3q/img/image-21.png")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundColor: 'rgba(255, 255, 255, 0.6)',  // semi-transparent white background
+        padding: '20px',
+        borderRadius: '10px',
+      }}> */}
+        <Title level={2} style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' }}>Submit&nbsp;&nbsp;VIP Card Information</Title>
+      {/* </div> */}
+      <div style={{ marginBottom: '10px' }}>
+        <Title level={4}>NFT Name</Title>
+        <Input
+          // value={nftName}
+          // onChange={handleNftNameChange}
+          placeholder="Enter NFT Name"
+        />
       </div>
+      <div style={{ marginBottom: '10px' }}>
+        <Title level={4}>Describe</Title>
+        <TextArea
+          // value={description}
+          // onChange={handleDescriptionChange}
+          placeholder="Enter Description"
+          rows={4}
+        />
+      </div>
+      <Button type="primary" onClick={callContract}>
+        {isLoading ? 'Loading...' : 'Submit'}
+      </Button>
     </div>
+    // <div className={styles['frame']}>
+    //   <div className={styles['overlap-wrapper']}>
+    //     <div className={styles['overlap']}>
+    //       <img className={styles['image']} alt="Image" src="https://c.animaapp.com/koRtGf3q/img/image-21.png" />
+    //       <div className={styles['rectangle']} />
+    //       <img className={styles['img']} alt="Rectangle" src="https://c.animaapp.com/koRtGf3q/img/rectangle-34626423.svg" />
+    //       <div className={styles['submit-VIP-card']}>Submit&nbsp;&nbsp;VIP Card Information</div>
+    //       <div className={styles['text-wrapper']}>NFT Name</div>
+
+    //       <div className={styles['div']}>
+    //         <Input
+    //           placeholder="Input your address here"
+    //         />
+    //       </div>
+    //       <div className={styles['text-wrapper-2']}>Discribe</div>
+    //       <div className={styles['rectangle-2']}>
+    //         <Input
+    //           type='textField'
+    //           placeholder="Input your address here"
+    //         />
+    //       </div>
+    //       <div className={styles['group']} onClick={callContract} style={{ cursor: 'pointer' }}>
+    //         <div className={styles['overlap-group']}>
+    //           <div className={styles['text-wrapper-4']}>
+    //             {isLoading ? 'Loading...' : 'Submit'}
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   )
 }
