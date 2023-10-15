@@ -194,7 +194,7 @@ export default function Manage() {
         ]}
       >
         <Input
-          value={inputValue}
+          // value={inputValue}
           // onChange={handleInputChange}
           placeholder="Input your address here"
         />
