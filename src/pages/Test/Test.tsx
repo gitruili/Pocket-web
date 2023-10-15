@@ -3,6 +3,7 @@ import "./Test.css"
 import { Link } from "react-router-dom"
 import Modal from 'react-modal'
 import { FormModal } from '~/components/FormModal';
+import mint from '~/assets/mint.png'
 
 export default function Test() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -23,6 +24,9 @@ export default function Test() {
               <div className="overlap-group">
                 <p className="p">One Step Publish Your NFT</p>
                 <img className="group" alt="Group" src="https://c.animaapp.com/bciClUIj/img/group-1430105087@2x.png" />
+                <div className="overlap-wrapper">
+                  <img className="vector" alt="Vector" src={mint} />
+                </div>
               </div>
               <div className="text-wrapper-4">Manage your NFT conveniently</div>
               <div className="text-wrapper-5">Choose NFT Type</div>
@@ -46,7 +50,7 @@ export default function Test() {
               <div className="text-wrapper-12">Already Published NFT?</div>
               <div className="group-12">
                 <div className="overlap-12">
-                  <div className="text-wrapper-13">Manage NFT</div>
+                  <Link to="/Manage"><div className="text-wrapper-13" style={{ cursor: 'pointer' }}>Manage NFT</div></Link> 
                 </div>
               </div>
             </div>

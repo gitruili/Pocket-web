@@ -1,10 +1,5 @@
 import React, { useState, useEffect, FC } from 'react';
 import styles from './FormModal.module.css'
-import { Link } from "react-router-dom"
-import { IconsFlatInstagram1 } from '~/icons/IconsFlatInstagram1/IconsFlatInstagram1'
-import cutepng from '~/assets/cute2.png'
-// import { IconsFlatInstagram1 } from "../../icons/IconsFlatInstagram1";
-
 interface FormModalProps {
   closeModal: () => void;
 }

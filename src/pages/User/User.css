@@ -8,3 +8,21 @@
     justify-content: center;
     align-items: center;
 }
+
+.label {
+    height: 48px;
+    width: 160px;
+  }
+  
+.label .text-wrapper {
+    color: #e5e5e5;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    /* left: 0; */
+    /* letter-spacing: 0; */
+    line-height: 48px;
+    top: 98px;
+    white-space: nowrap;
+}
+  
