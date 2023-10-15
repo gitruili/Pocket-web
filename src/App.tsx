@@ -8,6 +8,7 @@ import { MetaMaskContextProvider } from './hooks/useMetaMask'
 import { Routes, Route } from "react-router-dom"
 import Test from './pages/Test/Test'
 import User from './pages/User/User'
+import Manage from './pages/Manage/Manage'
 
 export const App = () => {
 
@@ -18,6 +19,7 @@ export const App = () => {
         <Routes>
           <Route path='/user' element={<User />} />
           <Route path='/test' element={<Test />} />
+          <Route path='/manage' element={<Manage />} />
           <Route path='/' element={<Display />} />
         </Routes>
         <MetaMaskError />

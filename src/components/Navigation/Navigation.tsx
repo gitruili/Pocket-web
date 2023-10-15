@@ -2,6 +2,7 @@ import { useMetaMask } from '~/hooks/useMetaMask'
 import { formatAddress } from '~/utils'
 import styles from './Navigation.module.css'
 import { useNavigate } from 'react-router-dom'
+import frame from '~/assets/Frame.png'
 
 export const Navigation = () => {
 
@@ -15,7 +16,10 @@ export const Navigation = () => {
   return (
     <div className={styles.navigation}>
       <div className={styles.flexContainer}>
-        <div className={styles.leftNav} onClick={handleNavigation}>Pocket</div>
+      <img src={frame} />
+        <div className={styles.leftNav} onClick={handleNavigation} style={{ cursor: 'pointer' }}>
+          Pocket
+        </div>
         <div className={styles.rightNav}>
           {!hasProvider &&
             <a href="https://metamask.io" target="_blank">

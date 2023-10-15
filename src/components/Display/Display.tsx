@@ -4,6 +4,7 @@ import styles from './Display.module.css'
 import { Link } from "react-router-dom"
 import { IconsFlatInstagram1 } from '~/icons/IconsFlatInstagram1/IconsFlatInstagram1'
 import cutepng from '~/assets/cute2.png'
+import cutepng2 from '~/assets/cute3.png'
 // import { IconsFlatInstagram1 } from "../../icons/IconsFlatInstagram1";
 
 export const Display = () => {
@@ -78,12 +79,17 @@ export const Display = () => {
                       <div className={styles['overlap-4']}>
                         <div className={styles['group-4']}>
                           <div className={styles['overlap-5']}>
-                            <img
+                          <img
+                            className={styles['group-18-2']}
+                            alt="Group"
+                            src={cutepng2}
+                          />
+                            {/* <img
                               className={styles['group-5']}
                               alt="Group"
                               src="https://c.animaapp.com/n6RxYxic/img/group-1430103859@2x.png"
-                            />
-                            <div className={styles['group-6']}>
+                            /> */}
+                            {/* <div className={styles['group-6']}>
                               <div className={styles['group-7']}>
                                 <div className={styles['overlap-group-2']}>
                                   <img
@@ -108,8 +114,8 @@ export const Display = () => {
                                   />
                                 </div>
                               </div>
-                            </div>
-                            <div className={styles['group-8']}>
+                            </div> */}
+                            {/* <div className={styles['group-8']}>
                               <div className={styles['group-9']}>
                                 <div className={styles['group-10']}>
                                   <div className={styles['overlap-group-3']}>
@@ -136,8 +142,8 @@ export const Display = () => {
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                            <img
+                            </div> */}
+                            {/* <img
                               className={styles['group-11']}
                               alt="Group"
                               src="https://c.animaapp.com/n6RxYxic/img/group-1430103857@2x.png"
@@ -146,32 +152,32 @@ export const Display = () => {
                               className={styles['group-12']}
                               alt="Group"
                               src="https://c.animaapp.com/n6RxYxic/img/group-1430103858@2x.png"
-                            />
+                            /> */}
                           </div>
                         </div>
-                        <img
+                        {/* <img
                           className={styles['group-13']}
                           alt="Group"
                           src="https://c.animaapp.com/n6RxYxic/img/group-1430104059@2x.png"
-                        />
-                        <img
+                        /> */}
+                        {/* <img
                           className={styles['group-14']}
                           alt="Group"
                           src="https://c.animaapp.com/n6RxYxic/img/group-1430104062@2x.png"
-                        />
+                        /> */}
                       </div>
                     </div>
                   </div>
                   <div className={styles['group-15']}>
                     <div className={styles['overlap-6']}>
-                      <img className={styles['vector-5']} alt="Vector" src="https://c.animaapp.com/n6RxYxic/img/vector-10.svg" />
-                      <img
+                      {/* <img className={styles['vector-5']} alt="Vector" src="https://c.animaapp.com/n6RxYxic/img/vector-10.svg" /> */}
+                      {/* <img
                         className={styles['intersect-3']}
                         alt="Intersect"
                         src="https://c.animaapp.com/n6RxYxic/img/intersect-4.svg"
-                      />
-                      <img className={styles['vector-6']} alt="Vector" src="https://c.animaapp.com/n6RxYxic/img/vector-9.svg" />
-                      <img className={styles['vector-7']} alt="Vector" src="https://c.animaapp.com/n6RxYxic/img/vector-8.svg" />
+                      /> */}
+                      {/* <img className={styles['vector-6']} alt="Vector" src="https://c.animaapp.com/n6RxYxic/img/vector-9.svg" />
+                      <img className={styles['vector-7']} alt="Vector" src="https://c.animaapp.com/n6RxYxic/img/vector-8.svg" /> */}
                     </div>
                   </div>
                 </div>
