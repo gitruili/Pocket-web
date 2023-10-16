@@ -42,26 +42,30 @@ export default function Manage() {
     {
       imgSrc: c1,
       imgAlt: "example",
-      title: "Card title",
-      desc: "This is the description"
+      title: "Andy",
+      desc: "Ponits:",
+      point: 300
     },
     {
       imgSrc: c2,
       imgAlt: "example",
-      title: "Card title",
-      desc: "This is the description"
+      title: "Carl",
+      desc: "Points:",
+      point: 3060
     },
     {
       imgSrc: c3,
       imgAlt: "example",
-      title: "Card title",
-      desc: "This is the description"
+      title: "Stefan",
+      desc: "Points:",
+      point: 7300
     },
     {
       imgSrc: c4,
       imgAlt: "example",
-      title: "Card title",
-      desc: "This is the description"
+      title: "William",
+      desc: "Points:",
+      point: 2300
     }
   ];
 
@@ -69,26 +73,30 @@ export default function Manage() {
     {
       imgSrc: c5,
       imgAlt: "example",
-      title: "Card title",
-      desc: "This is the description"
+      title: "Alice",
+      desc: "Points:",
+      point: 2300
     },
     {
       imgSrc: c6,
       imgAlt: "example",
-      title: "Card title",
-      desc: "This is the description"
+      title: "Bob",
+      desc: "Points:",
+      point: 1300
     },
     {
       imgSrc: c7,
       imgAlt: "example",
-      title: "Card title",
-      desc: "This is the description"
+      title: "Carter",
+      desc: "Points:",
+      point: 500
     },
     {
       imgSrc: c8,
       imgAlt: "example",
-      title: "Card title",
-      desc: "This is the description"
+      title: "Marshall",
+      desc: "Points:",
+      point: 600
     }
   ];
 
@@ -160,7 +168,7 @@ export default function Manage() {
             {userCollection.map(item => {
               return (
                 <Col span={6}>
-                  <CardC imgAlt={item.imgAlt} imgSrc={item.imgSrc} title={item.title} desc={item.desc}></CardC>
+                  <CardC imgAlt={item.imgAlt} imgSrc={item.imgSrc} title={item.title} desc={item.desc} point={item.point}></CardC>
                 </Col>
               )
             })}
@@ -170,7 +178,7 @@ export default function Manage() {
             {userCollection2.map(item => {
               return (
                 <Col span={6}>
-                  <CardC imgAlt={item.imgAlt} imgSrc={item.imgSrc} title={item.title} desc={item.desc}></CardC>
+                  <CardC imgAlt={item.imgAlt} imgSrc={item.imgSrc} title={item.title} desc={item.desc} point={item.point}></CardC>
                 </Col>
               )
             })}
