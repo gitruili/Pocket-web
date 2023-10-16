@@ -14,6 +14,13 @@ import c6 from '~/assets/c6.svg'
 import c7 from '~/assets/c7.svg'
 import c8 from '~/assets/c8.svg'
 import { CardC } from '~/components/CardC';
+import { ethers } from 'ethers';
+import vipcardABI from '../../../src/contract/VIPCard.json';
+import pocketABI from '../../../src/contract/Pocket.json'
+
+const vipcardAddress = '0x642fc5c518a40585fbf1b1ce57d28d239cc9cab5';
+const pocketAddress = '0x9587d45ec200948dc329077861d689d08af53030';
+const tokenURI = "ipfs://Qmd7kF7k8jwx4eUYap5p2TWxgGAUNyp8d85g52HcQrRrHf";
 
 export default function Manage() {
   const [visible, setVisible] = useState(false);
@@ -23,10 +30,37 @@ export default function Manage() {
     setVisible(true);
   };
 
-  const handleOk = () => {
+  const handleOk = async () => {
     // Handle submit button click
     console.log('Submitted value:', inputValue);
-    // call contractor here
+    const inputValueAdhoc = '0xF39a729c7B6557958fa7772552BBB9fC62dAfDf6'
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const signer = provider.getSigner();
+    const vipCard = new ethers.Contract(vipcardAddress, vipcardABI.abi, signer);
+    const pocket = new ethers.Contract(pocketAddress, pocketABI.abi, signer);
+    
+    try {
+      //const pocketTx = await pocket.mintPocket(inputValueAdhoc, tokenURI);
+      //
+      //console.log('Transaction:', pocketTx);
+
+      //const pocketReceipt = await pocketTx.wait();
+      //console.log('Transaction was mined in block', pocketReceipt.blockNumber);
+
+      //const myEvent = pocket.interface.getEvent('AccountCreated');
+      //const eventResult = pocketReceipt.logs.map(log => pocket.interface.parseLog(log)).find(parsedLog => parsedLog.name === 'AccountCreated');
+
+      //if (eventResult) {
+      //    console.log('Event Values:', eventResult.values);
+      //} else {
+      //    console.log('Event not found in transaction receipt.');
+      //}
+      //
+      const vipCardRes = await vipCard.mintVIPCard(inputValueAdhoc, tokenURI);
+      console.log(vipCardRes);
+    } catch (error) {
+      console.log(error);
+    }
     setVisible(false);
   };
 
